@@ -1,16 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UserSecretsId>77967820-5323-4c0f-8c2c-30507707e34d</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="datingapp.db"/>
+    <None Remove="datingapp.db" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.0.0"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.0"/>
-    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.6.0"/>
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0"/>
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.6.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.0.0" />
   </ItemGroup>
 </Project>
